@@ -78,7 +78,7 @@
   <section id="home">
     <h2 class="content-title">Welcome to Reymily Restaurant</h2>
     <div class="logo">
-      <img src="https://drive.google.com/uc?id=1KrTDymxA7lOCddJMhdTJ-9G3i29ahU0W" alt="Reymily Restaurant Logo">
+      <img src="(https://github.com/reymilyrestaurant/reymilyrestaurant.github.io/blob/7413ba4c316d377165e6dc6addc3f2302aa7d1ae/reymily.jpg)" alt="Reymily Restaurant Logo">
     </div>
     <div class="contact-info">
       <p><strong>LOCATION:</strong> Sitio Suha, Barangay Bigaan, San Teodoro, Oriental Mindoro</p>
