@@ -2,63 +2,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub Theme Template</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <style>
-        body {
-            background-color: #0d1117;
-            color: #c9d1d9;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-        a {
-            color: #58a6ff;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reymily Restaurant</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: white;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: red;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+    header h1 {
+      color: red;
+    }
+    nav {
+      background-color: orange;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+    }
+    footer {
+      background-color: red;
+      text-align: center;
+      padding: 10px;
+      color: white;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+    .logo img {
+      width: 200px;
+      height: auto;
+    }
+    .content-title {
+      font-weight: bold;
+      color: red;
+    }
+    .contact-info, .services-info {
+      font-size: 16px;
+    }
+    .contact-info a {
+      color: orange;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-    <header class="py-4 border-b border-gray-700">
-        <div class="container mx-auto px-4 flex justify-between items-center">
-            <h1 class="text-2xl font-bold">GitHub Theme Template</h1>
-            <nav>
-                <ul class="flex space-x-4">
-                    <li><a href="#" class="hover:text-white">Home</a></li>
-                    <li><a href="#" class="hover:text-white">About</a></li>
-                    <li><a href="#" class="hover:text-white">Projects</a></li>
-                    <li><a href="#" class="hover:text-white">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
 
-    <main class="py-8">
-        <div class="container mx-auto px-4">
-            <section class="mb-8">
-                <h2 class="text-xl font-semibold mb-4">Welcome to the GitHub Theme Template</h2>
-                <p class="mb-4">This is a simple HTML and CSS template inspired by GitHub's dark theme. Use this as a starting point for your projects.</p>
-                <a href="#" class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Get Started</a>
-            </section>
+  <!-- Header -->
+  <header>
+    <h1>Reymily Restaurant</h1>
+  </header>
 
-            <section>
-                <h2 class="text-xl font-semibold mb-4">Features</h2>
-                <ul class="list-disc list-inside space-y-2">
-                    <li>Dark theme inspired by GitHub's design.</li>
-                    <li>Responsive layout using Tailwind CSS.</li>
-                    <li>Easy customization and scalable for various projects.</li>
-                </ul>
-            </section>
-        </div>
-    </main>
+  <!-- Menu Navigation -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a href="#services">Services</a>
+  </nav>
 
-    <footer class="py-4 border-t border-gray-700">
-        <div class="container mx-auto px-4 text-center">
-            <p>&copy; 2025 GitHub Theme Template. All rights reserved.</p>
-        </div>
-    </footer>
+  <!-- Home Section -->
+  <section id="home">
+    <h2 class="content-title">Welcome to Reymily Restaurant</h2>
+    <div class="logo">
+      <img src="https://drive.google.com/uc?id=1KrTDymxA7lOCddJMhdTJ-9G3i29ahU0W" alt="Reymily Restaurant Logo">
+    </div>
+    <div class="contact-info">
+      <p><strong>LOCATION:</strong> Sitio Suha, Barangay Bigaan, San Teodoro, Oriental Mindoro</p>
+      <p><strong>CONTACT:</strong> 0970-149-4465</p>
+      <p><strong>FB:</strong> <a href="https://www.facebook.com/share/15tSjeN2fn/" target="_blank">Reymily Restaurant</a></p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2 class="content-title">About Us</h2>
+    <p>Discover the heart of Filipino cuisine at Reymily Restaurant, a beloved family-owned gem founded in 1997 by Mr. Reymundo and Mrs. Emily Bae. Located in the serene Sitio Suha, Barangay Bigaan, San Teodoro, Oriental Mindoro, this charming eatery brings the flavors of home to your table. Indulge in flavorful Filipino dishes made with love and tradition, including their best-selling Lomi, Pancit, and Palabok. Perfect for gatherings or casual meals, every bite at Reymily Restaurant tells a story of heritage and passion. With warm hospitality and fresh, locally sourced ingredients, you'll feel like family from the moment you arrive. Stop by and experience the authentic taste of Filipino comfort food. Visit Reymily Restaurant today and make every meal a celebration!</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2 class="content-title">Contact Us</h2>
+    <div class="contact-info">
+      <p><strong>LOCATION:</strong> Sitio Suha, Barangay Bigaan, San Teodoro, Oriental Mindoro</p>
+      <p><strong>CONTACT:</strong> 0970-149-4465</p>
+      <p><strong>FB:</strong> <a href="https://www.facebook.com/share/15tSjeN2fn/" target="_blank">Reymily Restaurant</a></p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2 class="content-title">Services</h2>
+    <ul class="services-info">
+      <li>Dine-In Service</li>
+      <li>Takeout Service</li>
+      <li>Food in Events Services</li>
+      <li>Groceries (Food Snacks and Beverage)</li>
+      <li>Meatshop (Pork, Chicken, and Beef)</li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Reymily Restaurant</p>
+  </footer>
+
 </body>
 </html>
