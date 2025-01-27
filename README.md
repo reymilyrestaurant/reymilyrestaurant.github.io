@@ -75,7 +75,7 @@
 <section class="home">
     <h2>Welcome to Reymily Restaurant</h2>
     <p>Discover the heart of Filipino cuisine at Reymily Restaurant, a beloved family-owned gem founded in 1997 by Mr. Reymundo and Mrs. Emily Bae.</p>
-    <p>Located in the serene Sitio Suha, Barangay Bigaan, San Teodoro, Oriental Mindoro, this charming eatery brings the flavors of home to your table. Indulge in flavorful Filipino dishes made with love and tradition.</p>
+    <p>Located in the serene Sitio Suha, Barangay Bigaan, San Teodoro, Oriental Mindoro, this charming eatery brings the flavors of home to your table. Indulge in flavorful Filipino dishes made with love and tradition, including their best-selling Lomi, Pancit, Palabok, and more. Perfect for gatherings or casual meals, every bite at Reymily Restaurant tells a story of heritage and passion. With warm hospitality and fresh, locally sourced ingredients, you'll feel like family from the moment you arrive. Stop by and experience the authentic taste of Filipino comfort food. Visit Reymily Restaurant today and make every meal a celebration!.</p>
 </section>
 
 <section class="menu">
