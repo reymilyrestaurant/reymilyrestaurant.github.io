@@ -94,8 +94,8 @@
         <div class="home">
             <h1>Welcome to Reymily Restaurant</h1>
             <div class="logo">
-                <a href="https://drive.google.com/file/d/1KrTDymxA7lOCddJMhdTJ-9G3i29ahU0W/view?usp=drive_link">
-                    <img src="https://drive.google.com/uc?id=1KrTDymxA7lOCddJMhdTJ-9G3i29ahU0W" alt="Reymily Restaurant Logo">
+                <a href="[https://drive.google.com/file/d/1KrTDymxA7lOCddJMhdTJ-9G3i29ahU0W/view?usp=drive_link">
+                    <img src="https://drive.google.com/uc?id=1KrTDymxA7lOCddJMhdTJ-9G3i29ahU0W](https://github.com/reymilyrestaurant/reymilyrestaurant.github.io/blob/272b98e68eae46be7a60e73a022063edc38d4c49/reymily.jpg)" alt="Reymily Restaurant Logo">
                 </a>
             </div>
             <div class="home-location">
